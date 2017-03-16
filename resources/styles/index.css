@@ -1,0 +1,363 @@
+body {
+  overflow-x: hidden;
+}
+
+.menuArea {
+  z-index: 10;
+  background: #fff;
+}
+
+.menuArea .areaLogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.menuArea .areaLogo .logo {
+  width: 23rem;
+  height: 12rem;
+  min-width: 13rem;
+  min-height: 8rem;
+}
+
+.menuArea .areaLogo .brazao {
+  display: block;
+  width: 9rem;
+  height: 8rem;
+  margin-left: 2rem;
+}
+
+.menuArea .content > div {
+  height: 6rem;
+}
+
+.menuArea .content .areaIcons {
+  display: flex;
+  justify-content: flex-end;
+  align-itenms: center;
+  padding: 1rem;
+}
+
+.menuArea .content .areaIcons .icons {
+  display: flex;
+  margin: 0 2rem;
+}
+
+.menuArea .content .areaIcons .icons span {
+  margin: .3rem;
+}
+
+.menuArea .content .areaIcons .icons span a {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0272B2;
+  border-radius: 5rem;
+}
+
+.menuArea .content .areaIcons .icons span a > i {
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+  margin: .2rem;
+  padding: 1rem;
+}
+
+.menuArea .content .menu {
+  background: #fff !important;
+}
+
+.menuArea .content .menu .navbar {
+  border: none;
+  background: #fff;
+}
+
+.menuArea .content .menu .navbar .navbar-nav {
+  background: #fff;
+}
+
+.menuArea .content .menu .navbar .navbar-nav li {
+  font-size: 1.3rem;
+  border-radius: 1rem;
+}
+
+.menuArea .content .menu .navbar .navbar-nav li a {
+  padding: 1rem 1.5rem;
+  color: #444;
+}
+
+.menuArea .content .menu .navbar .navbar-nav li.active a {
+  border-bottom: .3rem solid #DA9A30;
+  font-weight: bold;
+  background: #fff !important;
+  color: #DA9A30;
+}
+
+.menuArea .content .menu .navbar .navbar-nav li.active a hover {
+  color: #fff !important;
+}
+
+.menuArea .content .menu .navbar .navbar-nav li a:hover {
+  color: #DA9A30;
+}
+
+.areaSlaid {
+  background: transparent;
+  background: #ccc;
+  height: 60rem;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.areaSlaid img {
+  width: 100%;
+}
+
+.areaTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.areaTitle * {
+  text-align: center;
+}
+
+.areaTitle .title {
+  color: #DA9A30;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.areaTitle .separator {
+  border-bottom: 2px solid #DA9A30;
+  width: 10rem;
+  padding: 1rem;
+  border-radius: .3rem;
+  margin-bottom: 2rem;
+}
+
+.areaTitle p {
+  width: 80%;
+  padding: 3rem 0;
+  color: #888;
+  font-size: 1.8rem;
+}
+
+.areaTitle .BTmore {
+  background: #DA9A30;
+  border: none;
+  color: #fff;
+  padding: .3rem 1rem;
+  border-radius: .3rem;
+}
+
+.areaWeelCame {
+  padding: 3rem;
+  background: #fff;
+}
+
+.areaNews {
+  padding: 3rem;
+  background: #eee;
+  background-attachment: fixed;
+  margin-bottom: 0px !important;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.areaNews .areaNotice {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.areaNews .areaNotice > div {
+  margin: 1rem 0;
+}
+
+.areaNews .areaNotice .section {
+  display: flex;
+  background: #fff;
+  height: 23rem;
+  box-shadow: 1px 2px 5px 0 #aaa;
+}
+
+.areaNews .areaNotice .section > div {
+  width: 50%;
+}
+
+.areaNews .areaNotice .section .areaIMG {
+  overflow: hidden;
+}
+
+.areaNews .areaNotice .section .areaIMG > img {
+  width: 31.5rem;
+  height: 23rem;
+  margin-left: -1.5rem;
+  transition: all .8s;
+}
+
+.areaNews .areaNotice .section .areaIMG .areaScale {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 31.5rem;
+  height: 23rem;
+  background: #000;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all .8s;
+}
+
+.areaNews .areaNotice .section .areaIMG .areaScale label {
+  color: #fff;
+  text-align: center;
+  padding: 1rem 1.5rem;
+  border: 1px solid #fff;
+  border-radius: .3rem;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.areaNews .areaNotice .section .areaIMG .areaScale label:hover {
+  border: 2px solid #fff;
+}
+
+.areaNews .areaNotice .section .areaIMG:hover .areaScale {
+  opacity: 0.8;
+  padding: 1rem;
+  align-items: center;
+}
+
+.areaNews .areaNotice .section .areaIMG:hover img {
+  transform: scale(2);
+}
+
+.areaNews .areaNotice .section .descrition {
+  padding: 0 2rem;
+}
+
+.areaNews .areaNotice .section .descrition h3 {
+  color: #DA9A30;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  padding: .5rem 0;
+}
+
+.areaNews .areaNotice .section .descrition h5 {
+  font-size: 1.2rem;
+}
+
+.areaNews .areaNotice .section .descrition p {
+  color: #555;
+  font-size: 1.4rem;
+}
+
+.areaNews .areaNotice .section .descrition .BTmore {
+  background: #DA9A30;
+  border: none;
+  color: #fff;
+  padding: .3rem 1rem;
+  border-radius: .3rem;
+}
+
+.areaLinks {
+  padding: 3rem;
+  height: 70rem;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.areaLinks .areaSections {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.areaLinks .areaSections > div {
+  border-radius: .5rem;
+  background: #eee;
+  border: 1px solid #ddd;
+  padding: .4rem;
+  margin: 0 .8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 40rem;
+  cursor: pointer;
+}
+
+.areaLinks .areaSections > div > img {
+  width: 100%;
+}
+
+.footerLinks {
+  background: #272822;
+  display: flex;
+  color: #ccc;
+  padding: 2rem 1rem;
+}
+
+.footerLinks > div h4 {
+  font: normal;
+}
+
+.footerLinks > div ul {
+  margin: 0;
+  padding: .1rem 1rem;
+}
+
+.footerLinks > div ul li {
+  list-style-type: none;
+  padding: .5rem .8rem;
+  position: relative;
+}
+
+.footerLinks > div ul li:before {
+  content: "\2727";
+  color: #3AD880;
+  padding-right: .5rem;
+  position: absolute;
+  left: -1.1rem;
+}
+
+.footer {
+  background: #222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.footer * {
+  text-align: center;
+  color: #eee;
+}
+
+.footer p i {
+  padding: 0 .5rem;
+  font-size: 1.8rem;
+  color: #3AD880;
+}
+
+@media (max-width: 600px) {
+  .facet_sidebar {
+    display: none;
+  }
+}

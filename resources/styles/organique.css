@@ -1,0 +1,67 @@
+.areaUnite {
+  height: 50vh;
+  background: #ccc;
+  background: url("../images/UO.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.areaUnite > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  height: 50vh;
+}
+
+.areaUnite > div img {
+  width: 10vw;
+  min-width: 7rem;
+}
+
+.areaUnite > div h1 {
+  color: #fff;
+  font-size: 5.8vh;
+  text-align: center;
+}
+
+.areaServices {
+  background: #fff;
+  padding: 3rem 0;
+}
+
+.areaServices .services {
+  margin: 3rem 0;
+}
+
+.areaServices .services > div section {
+  margin: 3rem 0;
+}
+
+.areaServices .services > div section article {
+  width: 100%;
+  padding: .5rem 1rem;
+  background: #D9915F;
+  color: #fff;
+  margin: .5rem 0;
+}
+
+.areaServices .services .areaImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.areaServices .services .left {
+  padding-left: 5rem;
+}
+
+.areaServices .services .right {
+  padding-right: 5rem;
+}
+
+.areaServices .services .right * {
+  text-align: right;
+}

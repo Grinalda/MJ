@@ -1,0 +1,68 @@
+body{
+	
+}
+.areaUnite{
+	height: 50vh;
+	background: #ccc;
+	background: url('../images/UO.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+
+  	> div{
+  		display: flex;
+  		flex-direction: column;
+  		justify-content: center;
+  		align-items: center;
+  		background: rgba(#000, .5);
+  		height: 50vh;
+
+  		img{
+			width: 10vw;
+			min-width: 7rem;
+  		}
+  		h1{
+  			color: #fff;
+  			font-size: 5.8vh;
+  			text-align: center;
+  		}
+  	}
+  	
+}
+.areaServices{
+	background: #fff;
+	padding: 3rem 0;
+
+	.services{
+		margin: 3rem 0;
+		>div{
+
+			section{
+				margin: 3rem 0;
+
+				article{
+					width: 100%;
+					padding: .5rem 1rem;
+					background: #D9915F;
+					color: #fff;
+					margin: .5rem 0;
+				}
+			}
+		}
+		.areaImg{
+			display: flex;
+			align-items: center;
+			justify-content: center;	
+		}
+		.left{
+			padding-left: 5rem;
+		}
+		.right{
+			padding-right: 5rem;
+
+			*{
+				text-align: right;
+			}
+		}
+	}
+}

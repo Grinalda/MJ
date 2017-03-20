@@ -5,6 +5,34 @@ body{
 .geral{
 	
 }
+.icons{
+	display: flex;
+	margin: 0 2rem;
+	
+	span{
+		margin: .3rem;
+
+			a{
+				width: 3rem;
+				height: 3rem;
+
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background: #0272B2;
+				border-radius: 5rem;
+
+				> i{
+					font-size: 2rem;
+					color: #fff;
+					cursor: pointer;
+					margin: .2rem;;
+					padding: 1rem;
+					
+			}
+		}
+	}				
+}
 .menuArea{
 	
 	z-index: 10;
@@ -43,34 +71,7 @@ body{
 			align-itenms: center;
 			padding: 1rem;
 
-			.icons{
-				display: flex;
-				margin: 0 2rem;
-				
-				span{
-					margin: .3rem;
-
-						a{
-							width: 3rem;
-							height: 3rem;
-
-							display: flex;
-							justify-content: center;
-							align-items: center;
-							background: #0272B2;
-							border-radius: 5rem;
-
-							> i{
-								font-size: 2rem;
-								color: #fff;
-								cursor: pointer;
-								margin: .2rem;;
-								padding: 1rem;
-								
-						}
-					}
-				}				
-			}
+			
 		}
 		.menu{
 			// border: 1px solid #eee;
@@ -351,12 +352,4 @@ body{
 		font-size: 1.8rem;
 		color: #3AD880;
 	}
-}
-
-@media (max-width: 600px) 
-{
-  .facet_sidebar 
-   {
-    display: none;
-   }
 }

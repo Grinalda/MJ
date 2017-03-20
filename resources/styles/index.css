@@ -2,6 +2,33 @@ body {
   overflow-x: hidden;
 }
 
+.icons {
+  display: flex;
+  margin: 0 2rem;
+}
+
+.icons span {
+  margin: .3rem;
+}
+
+.icons span a {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0272B2;
+  border-radius: 5rem;
+}
+
+.icons span a > i {
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+  margin: .2rem;
+  padding: 1rem;
+}
+
 .menuArea {
   z-index: 10;
   background: #fff;
@@ -36,33 +63,6 @@ body {
   display: flex;
   justify-content: flex-end;
   align-itenms: center;
-  padding: 1rem;
-}
-
-.menuArea .content .areaIcons .icons {
-  display: flex;
-  margin: 0 2rem;
-}
-
-.menuArea .content .areaIcons .icons span {
-  margin: .3rem;
-}
-
-.menuArea .content .areaIcons .icons span a {
-  width: 3rem;
-  height: 3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #0272B2;
-  border-radius: 5rem;
-}
-
-.menuArea .content .areaIcons .icons span a > i {
-  font-size: 2rem;
-  color: #fff;
-  cursor: pointer;
-  margin: .2rem;
   padding: 1rem;
 }
 
@@ -354,10 +354,4 @@ body {
   padding: 0 .5rem;
   font-size: 1.8rem;
   color: #3AD880;
-}
-
-@media (max-width: 600px) {
-  .facet_sidebar {
-    display: none;
-  }
 }

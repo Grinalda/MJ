@@ -27,41 +27,197 @@
   text-align: center;
 }
 
-.areaServices {
+.areaNature {
   background: #fff;
   padding: 3rem 0;
 }
 
-.areaServices .services {
-  margin: 3rem 0;
+.areaText h1 {
+  font-size: 3rem;
 }
 
-.areaServices .services > div section {
-  margin: 3rem 0;
+.areaText p {
+  padding: 1rem .5rem;
+  font-size: 1.6rem;
+  color: #555;
 }
 
-.areaServices .services > div section article {
-  width: 100%;
-  padding: .5rem 1rem;
-  background: #D9915F;
-  color: #fff;
-  margin: .5rem 0;
+.areaText ul li {
+  padding: .3rem;
+  font-size: 1.5rem;
+  color: #555;
+  list-style-type: none;
+  padding: .5rem .8rem;
+  position: relative;
 }
 
-.areaServices .services .areaImg {
+.areaText ul li:before {
+  content: "\2713";
+  color: #8CB30E;
+  padding-right: .5rem;
+  position: absolute;
+  left: -1.1rem;
+}
+
+.areaCompt {
+  padding: 10rem 0;
+  background: #E2FBE6;
+}
+
+.areaCompt .areaText {
+  padding: 0 5rem;
+}
+
+.areaPDF {
+  background: #000;
+  padding: 1rem 5rem;
   display: flex;
+  justify-content: space-around;
   align-items: center;
+}
+
+.areaPDF p {
+  margin: 1rem 5rem;
+  color: #ddd;
+  font-size: 1.8rem;
+}
+
+.areaPDF button {
+  padding: .8rem 1rem;
+  margin: 1rem 5rem;
+  color: #eee;
+  background: #8CB30E;
+  border: none;
+  font-size: 1.4rem;
+  border-radius: .3rem;
+}
+
+.areaPDF button:hover {
+  background: #85AC0D;
+}
+
+.areaEquipa {
+  height: 98vh;
+  background: #fff;
+  padding: 5rem 0;
+  overflow: hidden;
+  color: #555;
+}
+
+.areaEquipa .container {
+  margin-top: 3rem;
+}
+
+.areaEquipa .container * {
+  color: #888;
+}
+
+.areaEquipa .container .areaImg img {
+  width: 30vw;
+}
+
+.areaEquipa .container .areaFotos img {
+  width: 5.5vw;
+  height: 10vh;
+  border-radius: 100rem;
+  cursor: pointer;
+  padding: .2rem;
+  border: 1px solid #eee;
+  transition: all .8s ease;
+}
+
+.areaEquipa .container .areaFotos img:hover {
+  border: 1px solid #85AC0D;
+}
+
+.areaContact {
+  background: #000;
+  display: flex;
   justify-content: center;
+  align-items: center;
+  padding: .5rem;
 }
 
-.areaServices .services .left {
-  padding-left: 5rem;
+.areaContact * {
+  color: #fff;
+  text-align: center;
 }
 
-.areaServices .services .right {
-  padding-right: 5rem;
+.areaFormContact {
+  height: 98vh;
+  background: #fff;
+  padding: 5rem 0;
 }
 
-.areaServices .services .right * {
-  text-align: right;
+.areaFormContact .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.areaFormContact .form-group label {
+  padding: .5rem 0;
+}
+
+.areaFormContact .form-group input, .areaFormContact .form-group textarea, .areaFormContact .form-group button {
+  border: 1px solid #eee;
+  background: #eee;
+}
+
+.areaFormContact .form-group .areaButton {
+  margin-top: 1rem;
+}
+
+.areaFormContact .form-group .areaButton button {
+  border: 1px solid #ccc;
+}
+
+.areaFormContact .form-group .areaSign {
+  padding: 1rem 0;
+}
+
+.areaFormContact .form-group .areaSign .title2 {
+  border-bottom: 1px dashed #bbb;
+  padding: .7rem 0;
+}
+
+.areaFormContact .form-group .areaSign > div {
+  margin: 0;
+}
+
+.areaFormContact .MapGrup .areaMap {
+  border: 1px solid #eee;
+  height: 63vh;
+  margin-top: .5rem;
+}
+
+.areaFormContact .MapGrup .areaAtendiment {
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem 1rem;
+}
+
+.areaFormContact .MapGrup .areaAtendiment article {
+  display: flex;
+  justify-content: space-between;
+}
+
+.areaFormContact .MapGrup .areaAtendiment article p {
+  font-size: 1.2rem;
+  padding: 1.5px;
+  margin: 0;
+}
+
+.areaFormContact .MapGrup .areaEndereco {
+  border-top: 1px dashed #bbb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.areaFormContact .MapGrup .areaEndereco p {
+  font-size: 1.2rem;
+  padding: 2px;
+  margin: 0;
+  color: #555;
 }

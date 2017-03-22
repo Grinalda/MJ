@@ -1,0 +1,145 @@
+.areaTop {
+  background: #374B64;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.areaTop h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.areaFind {
+  padding: 2.5rem 0;
+  background: #f1f1f7;
+  border-bottom: 2px solid #eee;
+  display: flex;
+  align-items: center;
+}
+
+.areaFind > form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.areaFind > form article {
+  display: flex;
+  align-items: center;
+  width: auto;
+  margin-left: 1rem;
+}
+
+.areaFind > form article select, .areaFind > form article input {
+  padding: 2rem 1rem;
+}
+
+.areaFind > form article label {
+  padding: .5rem;
+  color: #444;
+  width: auto;
+}
+
+.areaFind > form article select {
+  width: 10vw;
+}
+
+.areaFind > form article input {
+  width: 23vw;
+}
+
+.areaFind > form article button {
+  margin-left: 1rem;
+}
+
+.areaNewsDestaque {
+  margin: 2rem 0;
+}
+
+.areaNewsDestaque > section {
+  margin: 1rem .5rem;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 2rem;
+}
+
+.areaNewsDestaque > section img {
+  width: 100%;
+}
+
+.areaNewsDestaque > section section {
+  padding: 1.5rem;
+  border: 2px solid #eee;
+  background: #fff;
+}
+
+.areaNewsDestaque > section section article {
+  display: flex;
+  justify-content: space-between;
+}
+
+.areaNewsDestaque > section section p {
+  font-weight: normal;
+  line-height: 25px;
+  text-align: left;
+  color: #777;
+}
+
+.areaNewsDestaque > section section section {
+  width: 80%;
+}
+
+.areaNewsDestaque > section section h4 {
+  color: #555;
+  margin-top: 1rem;
+}
+
+.areaNewsDestaque > section section label {
+  padding: .5rem 1rem;
+  text-transform: uppercase;
+  background: #DA9A30;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #DA9A30;
+}
+
+.title:after {
+  content: '';
+  display: block;
+  width: 4rem;
+  padding-top: 5px;
+  border-bottom: 3px solid #DA9A30;
+}
+
+.news {
+  padding-top: 2rem;
+}
+
+.news .areaNewsDestaque section section {
+  background: #f7f6f1;
+}
+
+.news .areaImprensa > div {
+  padding: 2rem 0;
+}
+
+.news .areaImprensa > div img {
+  width: 30vh;
+}
+
+.news .areaImprensa > div article {
+  margin: 1.5rem 0;
+}
+
+.moreNews {
+  padding: 2rem 0;
+  background: #f7f3f6;
+}

@@ -1,0 +1,99 @@
+.areaBrox {
+  padding: 1rem 0;
+  background: #f1f2f3;
+  z-index: -1;
+}
+
+.areaBrox .container .title2 {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.areaBrox .container img {
+  cursor: pointer;
+}
+
+.areaBrox .container img:hover {
+  saturate: red, 50;
+}
+
+.areaBrox .container .areaDescrition {
+  background: #fff;
+  box-shadow: 1px 2px 10px #aaa;
+  padding: 1rem;
+}
+
+.areaBrox .container .areaDescrition h4 {
+  color: #DA9A30;
+  cursor: pointer;
+}
+
+.hide {
+  display: none !important;
+}
+
+.areaInformatation {
+  background: #f1f1f1;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  bottom: 0vh;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  transition: ease .8s;
+}
+
+.areaInformatation .conteiner {
+  background: #fff;
+  position: relative;
+  box-shadow: 1px 2px 20px 3px #bbb;
+  width: 80vw;
+  position: fixed;
+  bottom: 0vh;
+}
+
+.areaInformatation .conteiner .areaControls {
+  display: flex;
+  justify-content: flex-end;
+  padding: .5rem;
+}
+
+.areaInformatation .conteiner .areaControls i {
+  font-size: 3rem;
+  padding: 0 2rem;
+  color: #999;
+  cursor: pointer;
+  transition: ease .4s;
+}
+
+.areaInformatation .conteiner .areaControls i:hover {
+  color: #555;
+}
+
+.areaInformatation .conteiner .areaDocument {
+  padding: 0 8rem;
+  overflow: auto;
+  height: 85vh;
+}
+
+.areaInformatation .conteiner .areaDocument .areaFoto {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin-bottom: 1.3rem;
+}
+
+.areaInformatation .conteiner .areaDocument .areaFoto > div {
+  padding: 0;
+  padding-right: 1rem;
+}
+
+.areaInformatation .conteiner .areaDocument .areaFoto img {
+  width: 100vw;
+}
+
+.areaInformatation .conteiner .areaDescrition {
+  padding-bottom: 3rem;
+  width: 100%;
+}

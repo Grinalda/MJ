@@ -4,6 +4,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	box-shadow: 5px 2px 20px #000;
 
   	h1{
 		text-align: center;
@@ -37,6 +38,7 @@
 				padding: .5rem;
 				color: #444;
 				width: auto;
+				font-size: 1.6rem;
 			}
 			select{
 				width: 10vw;

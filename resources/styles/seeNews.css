@@ -1,0 +1,18 @@
+.areaContent {
+  background: #f1f1f1;
+  padding: 3rem 0;
+}
+
+.areaContent .container {
+  box-shadow: 1px 5px 20px 3px #bbb;
+  padding: 2rem;
+  background: #fff;
+}
+
+.areaContent .container article {
+  margin-top: 3rem;
+}
+
+.areaContent .container article p {
+  line-height: 2.5rem;
+}

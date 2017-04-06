@@ -1,0 +1,76 @@
+.areaTable {
+  margin-top: 2rem;
+}
+
+.areaTable table img {
+  width: 6rem;
+}
+
+.areaTable .mailbox-controls {
+  padding: 0 1rem;
+}
+
+.modal .size {
+  width: 80%;
+}
+
+.modal h4, .modal h5 {
+  text-align: center;
+}
+
+.modal h4 {
+  font-size: 2.5rem;
+  color: #17a599;
+  font-weight: booder;
+}
+
+.modal label {
+  width: 100%;
+  margin-top: .8rem;
+}
+
+.modal article {
+  display: flex;
+}
+
+.modal article img {
+  width: 10rem;
+  height: 8rem;
+}
+
+.modal article section {
+  width: 100%;
+  margin-left: 1rem;
+}
+
+.modal .fileBT {
+  margin: 0;
+}
+
+.areaSerch {
+  width: 60%;
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.areaSerch .date {
+  width: 40%;
+}
+
+.searchDate {
+  width: 50%;
+  margin-left: 1rem;
+}
+
+.box-header {
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.modal-footer {
+  border: none;
+}
+
+.modal-body {
+  border-top: 1px solid #f4f4f4;
+}

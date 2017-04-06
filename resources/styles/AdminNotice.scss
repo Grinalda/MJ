@@ -1,0 +1,67 @@
+.areaTable{
+	margin-top: 2rem;
+	table{
+		img{
+			width: 6rem;
+		}
+	}
+	.mailbox-controls{
+		padding: 0 1rem;
+	}
+	
+}
+.modal{
+	.size{
+		width: 80%;
+	}
+	h4,h5{
+		text-align: center;
+	}
+	h4{
+		font-size: 2.5rem;
+		color: #17a599;
+		font-weight: booder;
+	}
+	label{
+		width: 100%;
+		margin-top: .8rem;
+	}
+	article{
+		display: flex;
+
+		img{
+			width: 10rem;
+			height: 8rem;
+		}
+		section{
+			width: 100%;
+			margin-left: 1rem;
+		}
+	}
+	.fileBT{
+		margin: 0;
+	}
+}
+.areaSerch{
+	width: 60%;
+	float: right;
+	display: flex;
+	justify-content: flex-end;
+
+	.date{
+		width: 40%;
+	}
+}
+.searchDate{
+	width: 50%;
+	margin-left: 1rem;
+}
+.box-header{
+	border-bottom: 1px solid #f4f4f4;
+}
+.modal-footer{
+	border: none;
+}
+.modal-body{
+	border-top: 1px solid #f4f4f4;
+}

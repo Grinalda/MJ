@@ -1,3 +1,8 @@
+.cir {
+  background: url("../images/img9.jpg") !important;
+  background-attachment: fixed !important;
+}
+
 .areaUnite {
   height: 50vh;
   background: #ccc;
@@ -29,7 +34,23 @@
 
 .areaNature {
   background: #fff;
-  padding: 3rem 0;
+  padding: 2.5rem 0;
+}
+
+.areaNature p {
+  color: #777;
+  line-height: 3rem;
+}
+
+.areaNature .missao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.areaNature .missao p {
+  text-align: center;
 }
 
 .areaText h1 {
@@ -97,19 +118,18 @@
 }
 
 .areaEquipa {
-  height: 98vh;
   background: #fff;
-  padding: 5rem 0;
+  padding: 3rem 0;
   overflow: hidden;
   color: #555;
 }
 
 .areaEquipa .container {
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .areaEquipa .container * {
-  color: #888;
+  color: #777;
 }
 
 .areaEquipa .container .areaImg img {
@@ -118,7 +138,6 @@
 
 .areaEquipa .container .areaFotos img {
   width: 5.5vw;
-  height: 10vh;
   border-radius: 100rem;
   cursor: pointer;
   padding: .2rem;

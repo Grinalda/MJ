@@ -9,13 +9,13 @@ $('.box img').click(function(event) {
 
 	var title = $(this).parents('.box').find('h4').text();
 	// $('.titulo').text(title);
-	NewPlane(title,null,null,null);
+	NewPlane(title,'Direção de Droga','12/02/2017');
 
 });
 
 function NewPlane(titlee, organization, date) {
 		$('.titulo').text(titlee);
-		$('.organization').text('organization');
+		$('.organization').text(organization);
 		$('.date').text(date);
 	}
 

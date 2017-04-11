@@ -1,6 +1,9 @@
 body{
 	
 }
+.no{
+	display: none;
+}
 .cir{
 	background: url('../images/img9.jpg') !important;
   	background-attachment: fixed !important;
@@ -119,7 +122,7 @@ body{
 }
 
 .areaEquipa{
-	background: #fff;
+	background: #f1f1f1;
 	padding: 3rem 0;
 	overflow: hidden;
 	color: #555;
@@ -130,21 +133,39 @@ body{
 			color: #777;	
 		}
 
-		.areaImg img{
-			width: 30vw;
-		}
-		.areaFotos img{
-			width: 5.5vw;
-			border-radius: 100rem;
-			cursor: pointer;
-			padding: .2rem;
-			border: 1px solid #eee;
-			transition: all .8s ease;
-
-			&:hover{
-				border: 1px solid #85AC0D;
+		.areaImg{
+			display: flex;
+			justify-content: center;
+			img{
+				width: 25vw;
+				height: 50vh;
+				border-radius: 100rem;
+				border: 1px solid #eee;
 			}
 		}
+		.areaFotos {
+			img{
+				width: 5.5vw;
+				height: 12vh;
+				border-radius: 100rem;
+				cursor: pointer;
+				padding: .2rem;
+				border: 1px solid #eee;
+				transition: all .8s ease;
+
+				&:hover{
+					border: 1px solid #85AC0D;
+				}
+			}
+			.select{
+			  border: 2px solid #85AC0D;
+			}
+		}	
+	}
+	.OnePerson{
+	  display: flex;
+	  align-items: center;
+	  height: 70vh;
 	}
 }
 
@@ -202,39 +223,41 @@ body{
 
 		.areaMap{
 			border: 1px solid #eee;
-			height: 63vh;
+			height: 71vh;
 			margin-top: .5rem;
 		}
 
 		.areaAtendiment{
 			display: flex;
 		  	flex-direction: column;
-		 	padding: 1.2rem 1rem;
-			// padding-bottom: 0;
+		 	padding: 1rem 1rem;
+			align-items: center;
+		
 			article{
 				display: flex;
-  				justify-content: space-between;
-
   				p{
-  					font-size: 1.2rem;
+  					font-size: 1.3rem;
   					padding: 1.5px;
   					margin: 0;
+  					text-align: center;
   				}
 			}
 		}
 
 		.areaEndereco{
-			border-top: 1px dashed #bbb;
+			border-bottom: 1px dashed #bbb;
 			display: flex;
 			justify-content: center;
 			align-items: center;
 			flex-direction: column;
-
+			padding: 2rem 0;
+			width: 100%;
 			p{
-				font-size: 1.2rem;
+				font-size: 1.4rem;
 				padding: 2px;
 				margin: 0;
 				color: #555;
+				text-align: center;
 			}
 		}
 	}

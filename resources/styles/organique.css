@@ -1,3 +1,7 @@
+.no {
+  display: none;
+}
+
 .cir {
   background: url("../images/img9.jpg") !important;
   background-attachment: fixed !important;
@@ -118,7 +122,7 @@
 }
 
 .areaEquipa {
-  background: #fff;
+  background: #f1f1f1;
   padding: 3rem 0;
   overflow: hidden;
   color: #555;
@@ -132,12 +136,21 @@
   color: #777;
 }
 
+.areaEquipa .container .areaImg {
+  display: flex;
+  justify-content: center;
+}
+
 .areaEquipa .container .areaImg img {
-  width: 30vw;
+  width: 25vw;
+  height: 50vh;
+  border-radius: 100rem;
+  border: 1px solid #eee;
 }
 
 .areaEquipa .container .areaFotos img {
   width: 5.5vw;
+  height: 12vh;
   border-radius: 100rem;
   cursor: pointer;
   padding: .2rem;
@@ -147,6 +160,16 @@
 
 .areaEquipa .container .areaFotos img:hover {
   border: 1px solid #85AC0D;
+}
+
+.areaEquipa .container .areaFotos .select {
+  border: 2px solid #85AC0D;
+}
+
+.areaEquipa .OnePerson {
+  display: flex;
+  align-items: center;
+  height: 70vh;
 }
 
 .areaContact {
@@ -205,38 +228,42 @@
 
 .areaFormContact .MapGrup .areaMap {
   border: 1px solid #eee;
-  height: 63vh;
+  height: 71vh;
   margin-top: .5rem;
 }
 
 .areaFormContact .MapGrup .areaAtendiment {
   display: flex;
   flex-direction: column;
-  padding: 1.2rem 1rem;
+  padding: 1rem 1rem;
+  align-items: center;
 }
 
 .areaFormContact .MapGrup .areaAtendiment article {
   display: flex;
-  justify-content: space-between;
 }
 
 .areaFormContact .MapGrup .areaAtendiment article p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   padding: 1.5px;
   margin: 0;
+  text-align: center;
 }
 
 .areaFormContact .MapGrup .areaEndereco {
-  border-top: 1px dashed #bbb;
+  border-bottom: 1px dashed #bbb;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 2rem 0;
+  width: 100%;
 }
 
 .areaFormContact .MapGrup .areaEndereco p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   padding: 2px;
   margin: 0;
   color: #555;
+  text-align: center;
 }

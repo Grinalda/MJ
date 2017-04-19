@@ -1,10 +1,18 @@
-.areaTop{
-	background: #374B64;
+.top{
+	background: url("../images/img5.jpg");
+	background-color: rgba(0, 0, 0, 0.5);
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
 	height: 30vh;
+
+}
+.areaTop{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	//box-shadow: 5px 2px 10px #000;
+	background: rgba(0, 0, 0, 0.4);
+	height: 30vh;
 
   	h1{
 		text-align: center;

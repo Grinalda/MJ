@@ -1,5 +1,4 @@
 
-
 //------------Planos e Programas-------
 
 $('.closed').click(function(event) {
@@ -30,29 +29,10 @@ $('.areaFotos img').click(function function_name(argument) {
 	$('.areaFotos img').attr('class','');
 	$(this).addClass('select');
 
+	var nome = $(this).attr('nome');
+	var cargo = $(this).attr('cargo');
 
-	//alert($(this).attr('nome'));
-	var nome;
-	var cargo;
-
-	nome = $(this).attr('nome');
-	cargo = $(this).attr('cargo');
-
-
-	/*if ($(this).attr('alt')=='img1') {
-		nome = 'Herlander Rossi Medeiros';
-		cargo = 'Director Geral';
-
-	} else if ($(this).attr('alt')=='img2') {
-		nome = 'Isac Vera Cruz Will';
-		cargo = 'Director dos SRN';
-	}
-	else {
-		nome = 'Domingas Renner Cardoso';
-		cargo = 'Directora do CICC';
-	}*/
-
-	DiretorInformation(srcSelect, nome, cargo, 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis necessitatibus nobis reiciendis tempore aperiam ipsam consectetur esse');
+	DiretorInformation(srcSelect, nome, cargo, '');
 
 });
 
@@ -63,6 +43,19 @@ function DiretorInformation(srcImagem, nome, cargo, descrition) {
 	$('.areaDescricao .areaText p').text(descrition);
 }
 
-function equipa() {
-	
-}
+
+// *************  Legislação **************
+
+//Tootip hover na tag a para abrir documento
+$('.areaCollapse p.Doc a').attr({
+	'data-toggle': 'tooltip',
+	'data-placement': 'right',
+	'title': 'Click para abrir o documento'
+});
+
+
+//Menu Categorias active
+$('.nav li').click(function(event) {
+	$('.nav li').removeClass('active');
+	$(this).addClass('active');
+});

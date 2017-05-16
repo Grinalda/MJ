@@ -129,9 +129,9 @@
 				<img src="resources/images/Vector/RF.png" alt="" class="img-responsive">
 				<section>
 					<h4>Registro de Firma</h4>
-					<p><a href="#">Criação</a></p>
-					<p><a href="#">Modificação</a></p>
-					<p><a href="#">Extinção</a></p>
+					<p><a href="http://www.gue-stp.net/spip.php?rubrique1">Criação</a></p>
+					<p><a href="http://www.gue-stp.net/spip.php?rubrique1">Modificação</a></p>
+					<p><a href="http://www.gue-stp.net/spip.php?rubrique1">Extinção</a></p>
 				</section>
 			</div>		
 		</div>

@@ -1,19 +1,57 @@
 .no {
   display: none;
 }
-
 .cir {
-  background: url("../images/img9.jpg") !important;
+  background: url("../images/CIR.jpg") !important;
+  background-attachment: fixed !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+}
+.daf {
+  background: url("../images/DAF.jpg") !important;
+  background-attachment: fixed !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+}
+.dgap {
+  background: url("../images/DGAP.jpg") !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+.cacvd{
+  background: url('../images/CACVD.jpg') !important;
+  background-attachment: fixed !important;
+  background-size: contain !important;
+  background-repeat: no-repeat;
+}
+.gepol{
+  background: url('../images/GEPOL.jpg') !important;
+  background-attachment: fixed !important;
+  background-size: contain !important;
+  background-repeat: no-repeat;
+}
+.pic{
+  background: url('../images/PIC.jpg') !important;
+  background-attachment: fixed !important;
+  background-size: contain !important;
+  background-repeat: no-repeat;
+}
+.idt{
+  background: url('../images/IDT.jpg') !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+}
+.other{
+  background: url("../images/UO.jpg") !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
   background-attachment: fixed !important;
 }
-
 .areaUnite {
   height: 50vh;
   background: #ccc;
-  background: url("../images/UO.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .areaUnite > div {
@@ -21,7 +59,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   height: 50vh;
 }
 
@@ -51,12 +89,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 3rem;
 }
 
 .areaNature .missao p {
-  text-align: center;
+  text-align: justify;
 }
-
+.areaNature .missao h3 {
+  color: #DA9A30;
+}
 .areaText h1 {
   font-size: 3rem;
 }
@@ -65,6 +106,7 @@
   padding: 1rem .5rem;
   font-size: 1.6rem;
   color: #555;
+  text-align: justify;
 }
 
 .areaText ul li {
@@ -86,7 +128,7 @@
 
 .areaCompt {
   padding: 10rem 0;
-  background: #E2FBE6;
+  background: #E2FBE6 !important;
 }
 
 .areaCompt .areaText {
@@ -111,7 +153,7 @@
   padding: .8rem 1rem;
   margin: 1rem 5rem;
   color: #eee;
-  background: #8CB30E;
+  background: #8CB30E !important;
   border: none;
   font-size: 1.4rem;
   border-radius: .3rem;
@@ -122,7 +164,7 @@
 }
 
 .areaEquipa {
-  background: #f1f1f1;
+  background: #f1f1f1 !important;
   padding: 3rem 0;
   overflow: hidden;
   color: #555;
@@ -171,9 +213,11 @@
   align-items: center;
   height: 70vh;
 }
-
+.white{
+  background: #fff;
+}
 .areaContact {
-  background: #000;
+  background: #000 !important;
   display: flex;
   justify-content: center;
   align-items: center;

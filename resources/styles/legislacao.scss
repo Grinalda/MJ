@@ -1,0 +1,57 @@
+.top{
+  background: url("../images/img5.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 30vh;
+}
+
+.areaTabs{
+	margin-top: 2rem;
+	
+	li a{
+		color: #555;
+		font-weight: bold;
+	}
+	.active a{
+		border-top: 3px solid #0099ff !important;
+		border-radius: 0 !important;
+	}
+}
+
+.areaCollapse{
+	padding: 2rem 0;
+
+	.panel {
+		background: #fff !important;
+		padding: .5rem 0;
+		a{
+			font-size: 1.4rem;
+			color: #337ab7;
+			text-transform: uppercase;
+			i{
+				font-size: 1rem;
+				padding: 0 .3rem;
+			}
+		}
+		.Doc a, .Doc i{
+			font-size: 1.2rem ;
+			padding: 3px;
+			color: #555 !important;
+			text-transform: none;
+		}
+		.sumario{
+			padding: .5rem;
+			width: 80%;
+		}
+	}
+}
+
+.areaPaginator{
+	display:flex;
+	width: 100%;
+	border-top: 2px solid #dedede;
+	display: flex;
+	justify-content: flex-end;
+}

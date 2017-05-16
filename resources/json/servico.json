@@ -1,0 +1,44 @@
+{
+  "1-1":{
+    "titulo" : "Bilhete de Identidade",
+    "what" : "<b>1ª vez:</b><ul><li>Certidão de nascimento válido</li><li>2(duas) fotografias tipo passe</li><li>Impresso próprio para preencher no local</li></ul><b>Renovação de B.I</b><ul><li> Bilhete de Identidade caducado</li><li>2 (duas) fotografias tipo passe</li></ul>"
+  },
+  "1-2":{
+    "titulo" : "Certificado de Registo Criminal",
+    "what" : "<b>Registo Criminal –Modelo Interno</b><ul><li>Fotocópia de bilhete de Identidade válido</li><li>Impresso Próprio preenchido</li></ul><b>Registo Criminal-Modelo Especial</b><ul><li>Requerimento Próprio</li><li>Fotocópia de B.I do requerente</li><li>Fotocópia de B.I ou certidão de nascimento do interessado</li><li>Obs: O Registo Criminal é válido por (três) meses</li></ul>",
+    "where" : "<ul><li><b>Centro de Identificação Civil e Criminal</b></li><li>Praça do Povo-Distrito de Água-Grande- tel:2222113</li><li><b>Delegações Regional dos Registos e do Notariado- Príncipe</b></li><li><b>Delegações e Postos do Registo Civil- Câmaras Distritais </b></li><li>-Postos do Registo Civil da Trindade, Madalena e Bombom</li><li>Delegação do Registo Civil de Santana e Posto de Angolares </li><li>Posto do Registo Civil de Guadalupe e Posto de Santo Amaro</li><li>Posto do Registo Civil de Neves</li><ul>"
+  },
+  "2-1" : {
+    "titulo" : "Registo de Nascimento",
+    "what" : "<b>De menor (gratuito):</b><ul><li>Declaração de maternidade e/ou paternidade</li> <li>Documento de Identificação dos pais </li> <li>Boletim de Nascimento (em caso de nascimento hospitalar)</li> </ul> <b>Registo voluntário de maior </b> <ul><li>Bilhete de Identidade Valido</li> <li>Certidão do País</li> <li>Certidão Negativa</li></ul>"
+  },
+  "2-2" : {
+    "titulo" : "Processo de Casamento",
+    "what" : "<ul><li>Requerimento </li> <li>Bilhete de Identidade válido dos nubentes</li> <li>Atestado de residência dos nubentes</li> <li>Certidão de Nascimento dos nubentes</li> </ul>"
+  },
+  "2-3" : {
+    "titulo": "Processo de verificação de capacidade matrimonial",
+    "what": "<ul><li>Certidão de Nascimento dos nubentes</li> <li>Bilhete de Identidade válido</li> </ul>"
+  },
+  "2-4" : {
+    "titulo": "Processo de Nacionalidade",
+    "what": "<ul><li>Requerimento </li> <li>Certidão de nascimento dos pais (caso de filhos de santomenses)</li> <li>Registo Criminal</li> <li>Fotocópia de Bilhete Identidade ou passaporte</li> <li>Certidão de nascimento </li> <li>Atestado de Residência</li> <li>Declaração da Procuradoria-Geral da República,</li> <li>Fotocópia de Cartão de Residência, </li> <li>Declaração de Serviço de Imigração e Fronteira.</li> </ul>"
+  },
+  "2-5" : {
+    "titulo": "Processo de Alteração de Nome",
+    "what": "<ul><li>Requerimento </li> <li>Certidão de Nascimento</li> </ul>"
+  },
+  "2-6" : {
+    "titulo": "Assento de Óbito",
+    "what": "<ul><li>Certificado de Óbito passado ou preenchido pelo Médico </li> <li>Documento de Identificação do falecido</li> <li>Documentos de identificação dos declarantes</li> </ul>"
+  },
+  "2-7" : {
+    "titulo": "Pedidos de Certidões",
+    "what": "<b>Certidão de registo ou de documentos:</b> <ul><li>Cédula Pessoal ou BI </li></ul> <b>Certidão de Nascimento para emissão de BI</b> <ul><li>Cédula Pessoal ou BI</li></ul> <b>Certidão de Óbito</b> <ul><li>Cédula Pessoal ou BI do falecido</li> <li>Data do Óbito</li> <li>Indicação do cemitério de sepultura</li> <li>Documento de identificação do solicitante</li> </ul> <b>Certidão para efeitos de nacionalidade</b> <ul><li>Cédula Pessoal ou BI</li></ul> ",
+    "where" : "<b>Conservatória do Registo Civil de São Tomé</b> <ul><li>Praça do Povo-Distrito de Água-Grande- tel:222452</li> </ul> <b>Delegações Regional dos Registos e do Notariado - Príncipe </b> <b>Delegações e Postos do Registo Civil - Câmaras Distritais:</b> <ul><li>Postos do Registo Civil da Trindade, Madalena e Bombom</li> <li>Delegação do Registo Civil de Santana e Posto de Angolares  </li> <li>Posto do Registo Civil de Guadalupe e Posto de Santo Amaro</li> <li>Posto do Registo Civil de Neves</li> </ul> <b>Registos de Nascimento:</b> <ul><li>Maternidade do Hospital Central Dr.º Ayres de Menezes</li> <li>Maternidade Manuel Quaresma Dias da Graça- Príncipe</li> <li>Maternidade de Guadalupe</li> <li>Maternidade de Neves</li> <li>Maternidade de Angolares</li> </ul> "
+  },
+  "3-1" : {
+    "titulo": "Pedidos de Certidões",
+    "what": ""
+  }
+}

@@ -1,19 +1,22 @@
 .top{
-	background: url("../images/img5.jpg");
+	background: url("../images/img8.jpg");
 	background-color: rgba(0, 0, 0, 0.5);
   	background-size: cover;
   	background-repeat: no-repeat;
   	background-attachment: fixed;
 	height: 30vh;
-
 }
 .areaTop{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: rgba(0, 0, 0, 0.4);
+	background: rgba(0, 0, 0, 0.6);
 	height: 30vh;
+	flex-direction: column;
 
+	.input-group{
+		width: 40%;
+	}
   	h1{
 		text-align: center;
   		color: #fff;

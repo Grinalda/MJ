@@ -1,0 +1,117 @@
+.cidadao{
+	background: url("../images/cidadao2.jpg");
+	background-color: rgba(0, 0, 0, 0.4);
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+	height: 45vh !important;
+}
+.cidadao > div{
+	height: 45vh !important;
+}
+.cidadao h4{
+	color: #fff;
+	margin: 0;
+}
+.center{
+	text-align: center;
+}
+.cidadao h1{
+	font-family: cursive;
+	font-size: 4rem;
+}
+.areaServices{
+	padding: 3rem 0;
+	background: #fff;
+}
+.areaServices .sections{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.areaServices .sections section{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 0;
+}
+.areaServices .sections section i{
+	color: #fff;
+	font-size: 3rem;
+	background: #DA9A30;
+	border-radius: 5rem;
+	padding: 2.8rem;
+	box-shadow: 10px 10px 10px 0 #CCC;
+}
+.areaServices p{
+	padding: 5px;
+	text-align: center;
+	color: #555;
+	line-height: 2.5rem;
+	font-size: 1.5rem;
+}
+.areaServices p i,
+.allServices .seccao section p i{
+	color: #DA9A30;
+}
+.allServices{
+	background: #EEFBFB;
+	padding-bottom: 5rem;
+
+}
+.areaTitle .title:after{
+	border-bottom: none !important;
+}
+.allServices .seccao{
+	background: #fff;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 2rem;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	height: 43rem;
+	margin-top: 6rem;
+
+}
+.allServices .seccao img{
+	width: 15rem;
+	height: 15rem;
+	padding: 1rem;
+	margin-top: -7.5rem;
+}
+.allServices .seccao section{
+	padding: 1rem;	
+	width: 100%;
+}
+.allServices .seccao section h4{
+	text-align: center;
+	color: #333;
+	font-size: 1.9rem;
+}
+.allServices .seccao section p{
+	padding: .3rem 2rem;
+	position: relative;
+	font-family: cursive;
+	text-align: center;
+}
+.allServices .seccao section p a{
+	color: #555;
+}
+
+/* ------------Area More Information------------*/
+
+.out{
+	display: none;
+}
+.areaMore{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	margin: 0 !important;
+	top: 13rem;
+	z-index: 100;
+	padding: 3rem;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}

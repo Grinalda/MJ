@@ -1,25 +1,31 @@
 .top {
-  background: url("../images/img5.jpg");
+  background: url("../images/Imprensa.jpg") !important;
   background-color: rgba(0, 0, 0, 0.5);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
   height: 30vh;
 }
-
 .areaTop {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.6);
   height: 30vh;
+  flex-direction: column;
+}
+.areaTop .input-group {
+  width: 40%;
 }
 
 .areaTop h1 {
   text-align: center;
   color: #fff;
 }
-
+.contacto h3{
+  color: #fff;
+  margin: 0;
+}
 .areaFind {
   padding: 2.5rem 0;
   background: #f1f1f7;
@@ -75,6 +81,8 @@
   align-items: center;
   justify-content: flex-end;
   padding-bottom: 2rem;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .areaNewsDestaque > section img {
@@ -97,6 +105,8 @@
   line-height: 25px;
   text-align: left;
   color: #777;
+  max-height: 10rem;
+  overflow: hidden;
 }
 
 .areaNewsDestaque > section section section {
@@ -106,6 +116,8 @@
 .areaNewsDestaque > section section h4 {
   color: #555;
   margin-top: 1rem;
+  max-height: 5rem;
+  overflow: hidden;
 }
 
 .areaNewsDestaque > section section label {
@@ -115,6 +127,9 @@
   color: #fff;
   cursor: pointer;
   font-size: 1rem;
+}
+.areaNewsDestaque > section section label a{
+  color: #fff;
 }
 
 .title {
@@ -132,6 +147,7 @@
 
 .news {
   padding-top: 2rem;
+  background: #fff;
 }
 
 .news .areaNewsDestaque section section {
@@ -140,6 +156,7 @@
 
 .news .areaImprensa > div {
   padding: 2rem 0;
+  background: #fff;
 }
 
 .news .areaImprensa > div img {

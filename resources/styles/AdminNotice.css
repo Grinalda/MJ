@@ -5,15 +5,26 @@ html, body, span, p, form, img, a, ul, ol, li, table, tr, td, div {
   outline: none;
   list-style-type: none;
 }
-
+.empty {
+  border: 1px solid red !important;
+}
 .areaTable {
   margin-top: 2rem;
+}
+#tableNotice{
+  height: 10vh !important;
+  overflow: scroll;
 }
 
 .areaTable table img {
   width: 6rem;
 }
-
+.areaTable table td i{
+ padding: .5rem;
+  cursor: pointer;
+  color: #555;
+  font-size: 1.6rem;
+}
 .areaTable .mailbox-controls {
   padding: 0 1rem;
 }
@@ -29,7 +40,7 @@ html, body, span, p, form, img, a, ul, ol, li, table, tr, td, div {
 .modal h4 {
   font-size: 2.5rem;
   color: #17a599;
-  font-weight: booder;
+  font-weight: bolder;
 }
 
 .modal label {
@@ -53,7 +64,6 @@ html, body, span, p, form, img, a, ul, ol, li, table, tr, td, div {
 
 .modal .fileBT {
   margin: 0;
-  background: red;
   width: 100%;
   padding: 6.3px;
 }

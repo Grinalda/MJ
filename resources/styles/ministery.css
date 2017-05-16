@@ -1,0 +1,79 @@
+body {
+  background: red;
+}
+
+.areaBack {
+  background: #f1f1f1;
+  padding: 1rem 0;
+}
+
+.areaBack .container {
+  background: #ffffff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  padding: 5rem 4rem;
+}
+
+.areaImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.areaImg img {
+  width: 75%;
+  margin: 2rem 0;
+}
+.logo{
+  width: 80%;
+}
+.diagnostc {
+  padding: 0 5rem;
+}
+
+.diagnostc p {
+  padding: .5rem 0;
+  color: #333;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  text-align: justify;
+}
+.title{
+  color: #DA9A30;
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+
+}
+.center {
+  text-align: center;
+}
+
+.diagnostc ul {
+  margin: 0;
+  padding: .1rem 0;
+}
+
+.diagnostc ul li {
+  list-style-type: none;
+  padding: .5rem 0;
+  font-size: 1.4rem;
+}
+.diagnostc ul li a{
+  color: #333;
+} 
+.continue {
+  background: #DA9A30 !important;
+  border: none !important;
+  color: #fff;
+  border-radius: .3rem;
+}
+
+.dark {
+  filter: grayscale(45%);
+}
+
+.actualidade {
+  font-size: 1.5rem;
+  padding: 5rem;
+  line-height: 3rem;
+}

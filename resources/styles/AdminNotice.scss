@@ -5,7 +5,9 @@ html, body, span, p, form, img, a, ul, ol, li, table, tr, td, div{
 	outline:none;
 	list-style-type:none;
 }
-
+.empty{
+	border: 1px solid red;
+}
 .areaTable{
 	margin-top: 2rem;
 	table{
@@ -28,7 +30,7 @@ html, body, span, p, form, img, a, ul, ol, li, table, tr, td, div{
 	h4{
 		font-size: 2.5rem;
 		color: #17a599;
-		font-weight: booder;
+		font-weight: bolder;
 	}
 	label{
 		width: 100%;
@@ -48,7 +50,6 @@ html, body, span, p, form, img, a, ul, ol, li, table, tr, td, div{
 	}
 	.fileBT{
 		margin: 0;
-		background: red;
 		width: 100%;
 		padding: 6.3px;
 	}

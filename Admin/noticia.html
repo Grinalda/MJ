@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>ADM</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap 3.3.6 -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
+  <link rel="stylesheet" href="dist/css/skins/skin-blue.min.css">
+   <!-- bootstrap datepicker -->
+  <link rel="stylesheet" href="plugins/datepicker/datepicker3.css">
+  <link rel="stylesheet" href="../resources/styles/AdminNotice.css">
+  <!-- bootstrap wysihtml5 - text editor -->
+  <link rel="stylesheet" href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+</head>
+<style type="text/css">
+  .box-body{
+    max-height: 40rem;
+    overflow: scroll;
+  }
+</style>
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+
+  <!-- Main Header -->
+  <header class="main-header">
+
+    <!-- Logo -->
+    <a href="index2.html" class="logo">
+      <!-- mini logo for sidebar mini 50x50 pixels -->
+      <span class="logo-mini"><b>Min-Justiça</b></span>
+      <!-- logo for regular state and mobile devices -->
+      <span class="logo-lg"><b>Min</b>-Justiça</span>
+    </a>
+
+    <!-- Header Navbar -->
+    <nav class="navbar navbar-static-top" role="navigation">
+      <!-- Sidebar toggle button-->
+      <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+        <span class="sr-only">Toggle navigation</span>
+      </a>
+      <!-- Navbar Right Menu -->
+      <div class="navbar-custom-menu">
+        <ul class="nav navbar-nav">
+
+          <!-- User Account Menu -->
+          <li class="dropdown user user-menu">
+            <!-- Menu Toggle Button -->
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <!-- The user image in the navbar-->
+              <img src="dist/img/avatar3.png" class="user-image" alt="User Image">
+              <!-- hidden-xs hides the username on small devices so only the image appears. -->
+              <span class="hidden-xs">Grinalda Soares</span>
+            </a>
+            <ul class="dropdown-menu">
+              <!-- The user image in the menu -->
+              <li class="user-header">
+                <img src="dist/img/avatar3.png" class="img-circle" alt="User Image">
+
+                <p>
+                  Grinalda Soares - Web Developer
+                  <small>Since Nov. 2012</small>
+                </p>
+              </li>
+              <!-- Menu Body -->
+              <li class="user-body">
+                <div class="row">
+                  <div class="col-xs-4 text-center">
+                    <a href="#">Followers</a>
+                  </div>
+                  <div class="col-xs-4 text-center">
+                    <a href="#">Sales</a>
+                  </div>
+                  <div class="col-xs-4 text-center">
+                    <a href="#">Friends</a>
+                  </div>
+                </div>
+                <!-- /.row -->
+              </li>
+              <!-- Menu Footer-->
+              <li class="user-footer">
+                <div class="pull-left">
+                  <a href="#" class="btn btn-default btn-flat">Profile</a>
+                </div>
+                <div class="pull-right">
+                  <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <!-- Control Sidebar Toggle Button -->
+          <li>
+            <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- Left side column. contains the logo and sidebar -->
+  <aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+
+      <!-- Sidebar user panel (optional) -->
+      <div class="user-panel">
+        <div class="pull-left image">
+          <img src="dist/img/avatar3.png" class="img-circle" alt="User Image">
+        </div>
+        <div class="pull-left info">
+          <p>Grinalda Soares</p>
+          <!-- Status -->
+          <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+        </div>
+      </div>
+
+      <!-- search form (Optional) -->
+      <form action="#" method="get" class="sidebar-form">
+        <div class="input-group">
+          <input type="text" name="q" class="form-control" placeholder="Procurar...">
+              <span class="input-group-btn">
+                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
+                </button>
+              </span>
+        </div>
+      </form>
+      <!-- /.search form -->
+
+      <!-- Sidebar Menu -->
+      <ul class="sidebar-menu">
+        <li class="header">Menu</li>
+        <!-- Optionally, you can add icons to the links -->
+        <li class="active"><a href="#"><i class="fa fa-newspaper-o"></i> <span>Notícias</span></a></li>
+        <li><a href="#"><i class="fa fa-calendar-check-o"></i> <span>Planos e Programas</span></a></li>
+        <li><a href="#"><i class="fa fa-file-code-o"></i> <span>Criar Página</span></a></li>
+      </ul>
+      <!-- /.sidebar-menu -->
+    </section>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <h1>
+        Notícias
+        <small>Administração de Notícias</small>
+      </h1>
+      <ol class="breadcrumb">
+          <button class="btn btn-success" data-toggle="modal" data-target="#myModal"><i class="fa fa-plus"></i> Nova Notícia</button>
+        <button class="btn btn-success" data-toggle="modal" data-target="#ModalMultimedia"><i class="fa fa-plus"></i> Multimédia</button>
+      </ol>
+    </section>
+  
+    <!-- Main content -->
+    <section class="content">
+        <div class="box box-primary areaTable">
+          <div class="box-header">
+            <h3 class="box-title">Listagem das Notícias</h3>
+            <div class="box-tools pull-right areaSerch">
+              <div class="input-group date">
+                <div class="input-group-addon">
+                    <i class="fa fa-calendar"></i>
+                </div>
+                <input type="text" class="form-control" id="datepicker">
+                <span class="input-group-btn">
+                      <button type="button" class="btn btn-default btn-flat"><i class="glyphicon glyphicon-search"></i></button>
+                    </span>
+              </div>
+              <div class="input-group searchDate">
+                 <input type="text" class="form-control" placeholder="Pesquise aqui...">
+                    <span class="input-group-btn">
+                      <button type="button" class="btn btn-info btn-flat"><i class="glyphicon glyphicon-search"></i></button>
+                    </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- /.box-header -->
+          <div class="box-body">
+            <table id="example2" class="table table-bordered table-hover">
+              <thead>
+                <tr>
+                  <th>Acção</th>
+                  <th>IMG</th>
+                  <th>Data</th>
+                  <th>Título</th>
+                </tr>
+              </thead>
+              <tbody id="tableNotice">
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Acção</th>
+                  <th>IMG</th>
+                  <th>Data</th>
+                  <th>Título</th>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+          <!-- /.box-body -->
+        </div>
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+  <!-- Main Footer -->
+  <footer class="main-footer">
+    <!-- To the right -->
+    <div class="pull-right hidden-xs">
+      Admin versão 1.0
+    </div>
+    <!-- Default to the left -->
+    <strong>Copyright &copy; 2017 <a href="#">Ministério da Justiça</a>.</strong> Todos direitos Reservados.
+  </footer>
+  
+  <div class="control-sidebar-bg"></div>
+
+  <!-- Modal Noticia-->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" keyboard="false">
+    <div class="modal-dialog size" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title title" id="myModalLabel">Nova Notícia</h4>
+          <h5>Configure as Informações básicas da Notícia</h5>
+        </div>
+        <div class="modal-body">
+            <div class="col-md-12"  id="noticeReg">
+                <div class="col-md-6">
+                  <label>Título</label>
+                  <input type="text" class="form-control inputError" id="titulo">
+                  <small>Escolha um título que define a notícia</small>
+                  <label>Descrição Curta</label>
+                  <input type="text" class="form-control" id="resumo">
+                  <small>Descreva em poucas palavras a notícia.</small>
+                  <label>Foto da Notícia</label>
+                  <article>
+                    <img src="dist/img/image.png" alt="" id="imgView">
+                    <section>
+                        <div class="input-group">
+                          <input type="text" class="form-control" readonly aria-label="..." id="imgSRC">
+                          <div class="input-group-btn">
+                            <button type="button" class="btn btn-default btfileNotice" aria-expanded="false"> <label for="fileNotice" class="fileBT"><i class="fa fa fa-paperclip"></i> Carregar</label></button>
+                            <input type="file" id="fileNotice" style="display: none">
+                          </div>
+                        </div>
+                        <small>Escolha uma foto que define a notícia</small>
+                    </section>                  
+                  </article>
+                 <article>
+                   <section>
+                     <label>Data de Início</label>
+                     <div class="input-group date">
+                        <div class="input-group-addon">
+                            <i class="fa fa-calendar"></i>
+                        </div>
+                        <input type="text" class="form-control pull-right" id="dateStart">
+                      </div>
+                   </section>
+                   <section>
+                     <label>Data de Fim</label>
+                     <div class="input-group date">
+                        <div class="input-group-addon">
+                            <i class="fa fa-calendar"></i>
+                        </div>
+                        <input type="text" class="form-control pull-right"  id="dateEnd">
+                      </div>
+                   </section>
+                 </article>
+                  <small>Escolha a data em que aconteceu a notícia. Caso seja apenas um dia, escolha apenas a data de Início</small>
+                </div>
+                <div class="col-md-6">
+                  <label>Conteúdo</label>
+
+                  <!-- /.box-header -->
+                  <div class="box-body pad">
+                   
+
+                      <textarea  id="conteudo" placeholder="Escreva o conteúdo da notícia aqui..." style="width: 100%; height: 300px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
+                  
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-primary " name="save" id="BTsave">Salvar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+<!-- Modal Multimedia-->
+<div class="modal fade" id="ModalMultimedia" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" keyboard="false">
+  <div class="modal-dialog size" role="document">
+    <div class="modal-content col-md-6">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title title">Novo Vídeo</h4>
+        <h5>Configure as Informações do Video</h5>
+      </div>
+      <div class="modal-body">
+        <textarea name="" id="videoTxt" cols="10" rows="10" class="form-control"></textarea>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary " name="save" id="BTsaveVideo">Salvar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="plugins/jQuery/jquery-2.2.3.min.js"></script>
+<!-- Bootstrap 3.3.6 -->
+<script src="../resources/script/master.js"></script>
+<script src="../resources/script/notice.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<!-- AdminLTE App -->
+<script src="plugins/iCheck/icheck.min.js"></script>
+<script src="dist/js/app.min.js"></script>
+<!-- bootstrap datepicker -->
+<script src="plugins/datepicker/bootstrap-datepicker.js"></script>
+<!-- Bootstrap WYSIHTML5 -->
+<script src="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+
+<script>
+  //Date picker
+    $('#datepicker, #dateStart, #dateEnd').datepicker({
+      autoclose: true
+    });
+
+  $(function () {
+    //Add text editor
+    $("#conteudo").wysihtml5();
+
+  });
+
+
+</script>
+
+</body>
+</html>

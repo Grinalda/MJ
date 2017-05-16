@@ -1,0 +1,79 @@
+.legislacao {
+  background: url("../images/lei1.jpg") !important;
+  background-size: contain !important;
+  background-attachment: fixed !important;
+}
+.planos{
+  background: url("../images/licitacoes.jpg") !important;
+  background-size: contain !important;
+  background-attachment: fixed !important;
+}
+
+.areaTabs {
+  padding-top: 2rem;
+  background: #fff;
+}
+
+.areaTabs li a{
+  color: #555;
+  font-weight: bold;
+}
+
+.areaTabs .active a {
+  border-top: 3px solid #0099ff !important;
+  border-radius: 0 !important;
+}
+.selected{
+  display: block !important;
+}
+.areaMaster > div{
+ display: none;
+}
+
+.areaCollapse {
+  padding: 2rem 0;
+}
+
+.areaCollapse .panel {
+  background: #fff !important;
+  padding: .5rem 0;
+}
+
+.areaCollapse .panel a {
+  font-size: 1.4rem;
+  color: #337ab7;
+  text-transform: uppercase;
+}
+
+.areaCollapse .panel a i {
+  font-size: 1rem;
+  padding: 0 .3rem;
+}
+
+.areaCollapse .panel .Doc a,.areaCollapse .panel i {
+  font-size: 1.2rem;
+  padding: 3px;
+  color: #555;
+  text-transform: none;
+
+}
+ .areaCollapse .panel-body{
+  padding: 1rem 3rem;
+ }
+ .areaCollapse .panel i{
+    color: #DA9A30;
+ }
+
+.areaCollapse .panel .sumario {
+  padding: .5rem;
+  width: 80%;
+}
+
+.areaPaginator {
+  display: flex;
+  width: 100%;
+  border-top: 2px solid #dedede;
+  display: flex;
+  justify-content: flex-end;
+}
+

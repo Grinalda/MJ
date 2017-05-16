@@ -1,7 +1,21 @@
 body {
   overflow-x: hidden;
+  margin-bottom: 90vh !important;
+  background: #fff;
 }
+.row{
+  background: #fff;
+}
+.center{
+  text-align: center;
+}
+.carousel-caption{
+  width: 100% !important;
 
+  left: 0 !important;
+  bottom: 0 !important;
+  background: rgba(0, 0, 0, .5) !important;
+}
 .icons {
   display: flex;
   margin: 0 2rem;
@@ -32,6 +46,9 @@ body {
 .menuArea {
   z-index: 10;
   background: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1) !important;
+  z-index: 100;
+  border-bottom: 1px solid #eee;
 }
 
 .menuArea .areaLogo {
@@ -62,7 +79,7 @@ body {
 .menuArea .content .areaIcons {
   display: flex;
   justify-content: flex-end;
-  align-itenms: center;
+  align-items: center;
   padding: 1rem;
 }
 
@@ -89,14 +106,14 @@ body {
   color: #444;
 }
 
-.menuArea .content .menu .navbar .navbar-nav li.active a {
+.menuArea .content .menu .navbar .navbar-nav .active a {
   border-bottom: .3rem solid #DA9A30;
   font-weight: bold;
   background: #fff !important;
   color: #DA9A30;
 }
 
-.menuArea .content .menu .navbar .navbar-nav li.active a hover {
+.menuArea .content .menu .navbar .navbar-nav .active a hover {
   color: #fff !important;
 }
 
@@ -104,19 +121,10 @@ body {
   color: #DA9A30;
 }
 
-.areaSlaid {
-  background: transparent;
-  background: #ccc;
-  height: 57rem;
-  overflow: hidden;
-  padding: 0;
-  margin: 0;
+.menuArea .content .menu .navbar .navbar-nav .dropdown a {
+  color: #444;
+  border-bottom: none;
 }
-
-.areaSlaid img {
-  width: 100%;
-}
-
 .areaTitle {
   display: flex;
   flex-direction: column;
@@ -161,7 +169,14 @@ body {
   padding: 3rem;
   background: #fff;
 }
-
+.areaWeelCame p{
+  text-align: justify !important;
+  width: 100% !important;
+  color: #777 !important;
+}
+#collapseExample{
+  margin-top: -5rem;
+}
 .areaNews {
   padding: 3rem;
   background: #eee;
@@ -253,6 +268,8 @@ body {
   font-size: 1.6rem;
   text-transform: uppercase;
   padding: .5rem 0;
+  max-height: 4rem;
+  overflow: hidden;
 }
 
 .areaNews .areaNotice .section .descrition h5 {
@@ -262,6 +279,12 @@ body {
 .areaNews .areaNotice .section .descrition p {
   color: #555;
   font-size: 1.4rem;
+  max-height: 9rem;
+  overflow: hidden;
+  text-align: justify;
+}
+.areaNews .areaNotice .section .descrition p:after{
+  content: '...';
 }
 
 .areaNews .areaNotice .section .descrition .BTmore {
@@ -276,25 +299,21 @@ body {
   padding: 3rem;
   height: 70rem;
   background: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .areaLinks .areaSections {
   text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 0 8rem;
 }
-
 .areaLinks .areaSections > div {
+  padding: 1rem;
+  margin-bottom: 5rem;
+}
+.areaLinks .areaSections > div > section{
   border-radius: .5rem;
   background: #eee;
   border: 1px solid #ddd;
-  padding: .4rem;
-  margin: 0 .8rem;
+  padding: .5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -302,15 +321,24 @@ body {
   cursor: pointer;
 }
 
-.areaLinks .areaSections > div > img {
+.areaLinks .areaSections > div > section a:hover{
+  text-decoration: none;
+}
+.areaLinks .areaSections > div > section img {
   width: 100%;
 }
-
+.footerMaster{
+  position: fixed !important;
+  bottom: 0;
+  z-index: -1;
+  width: auto;
+}
 .footerLinks {
   background: #272822;
-  display: flex;
+  height: auto;
   color: #ccc;
   padding: 2rem 1rem;
+  
 }
 
 .footerLinks > div h4 {
@@ -343,6 +371,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 2rem 1rem;
+  width: 100%;
 }
 
 .footer * {
@@ -355,3 +384,52 @@ body {
   font-size: 1.8rem;
   color: #3AD880;
 }
+
+
+/* **************slider************ */
+.areaSlaid {
+  background: #fff;
+  height: auto;
+  padding: 0;
+  margin: 0 auto;
+}
+.slider{
+  height: 69vh;
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow: hidden;
+  margin-bottom: .1rem;
+}
+.slider .slider-item{
+  width: 100%;
+}
+.slider img{
+  width: 100% !important;
+  height: 69vh;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.pager{
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  z-index: 999;
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  float: left;
+}
+.pager a{
+  cursor: pointer;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 5rem;
+  background: transparent;
+  margin: .2rem;
+  border: 3px solid #fff;
+
+}
+.pager a.sliderAtivado{
+  background: #fff;
+}
+

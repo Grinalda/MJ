@@ -37,7 +37,8 @@ body{
 	
 	z-index: 10;
 	background: #fff;
-
+	box-shadow: 0 10px 20px rgba(0,0,0,0.10), 0 6px 6px rgba(0,0,0,0.10);
+	/*position: fixed;*/
 	.areaLogo{
 		display: flex;
 		justify-content: space-between;
@@ -70,8 +71,6 @@ body{
 			justify-content: flex-end;
 			align-itenms: center;
 			padding: 1rem;
-
-			
 		}
 		.menu{
 			// border: 1px solid #eee;
@@ -84,15 +83,14 @@ body{
 					background: #fff;
 					li{
 						font-size: 1.3rem;
-						border-radius: 1rem;
-						
+						border-radius: 1rem;	
 
 						 a{
 							padding: 1rem 1.5rem;
 							color: #444;
 						 }
 					}
-					li.active a{
+					.active a{
 						border-bottom: .3rem solid #DA9A30;
 						font-weight: bold;
 						background: #fff !important;
@@ -104,6 +102,12 @@ body{
 					}
 					li a:hover{
 						color: #DA9A30;
+					}
+					.dropdown{
+						a{
+							color: #444;
+							border-bottom: none;
+						}
 					}
 				}
 			}

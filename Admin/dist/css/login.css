@@ -1,0 +1,24 @@
+.area{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #eee;
+	width: 100vw;
+	height: 100vh;
+}
+.content{
+	width: 30%;
+	
+	background: #fff;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.content div{
+	padding: 1rem;
+}
+.out{
+	display: none;
+}
+.show{
+	color : red !important;
+	display: block !important;
+}

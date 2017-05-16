@@ -171,9 +171,9 @@
 			</div>
 			<div class="areaAtendiment">
 				<div class="areaEndereco">
-					<p>Avenida Marginal 12 de Julho CP 901</p>
+					<p>Rua João de Deus, São Tomé</p>
 					<p>email: mjdh.stp@gmail.com</p>
-					<p>Telefone: +239 2222256</p>
+					<p>Telefone: +239 2225426/ 2221030/ 2221985</p>
 				</div>
 				<article>
 					<p>Segunda - Feira à Sexta feira : - De manhã: das 8:00 às 12:00 <br> A tarde: das 14:00 às 16:00 </p>

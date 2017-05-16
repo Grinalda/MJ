@@ -104,7 +104,7 @@
 			<p><b>Qualidade</b> – Garantir os níveis de excelência.</p>
 		</div>
 		<div class=" diagnostc col-md-12">
-			<h3 class="title">IX -PRINCIPIOS ORIENTADORES : </h3>
+			<h3 class="title">X -PRINCIPIOS ORIENTADORES : </h3>
 			<p>Foram identificados como prioritários e merecedores de urgente intervenção os seguintes sectores e actividades programadas numa visão integrada e temporária de 5 anos,  assentes em:</p>
 			<ul>
 				<li><b>- Desenvolvimento Institucional</b></li>

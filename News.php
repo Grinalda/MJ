@@ -40,8 +40,8 @@
 
 		<div class="col-md-8" id="newsDestaque">
 			<h1 class="title">Multimédia</h1> <br>
-            <div class="col-md-12 areaMultimedia imprensa" >
-                <div class="col-md-12 " style="display: flex; flex-direction: row !important;">
+            <div class="col-md-12 areaMultimedia imprensa" style="display: flex; flex-direction: row !important;">
+                <div class="col-md-12 col-xs-12">
                     <div class="fb-page" data-href="https://www.facebook.com/mjapap.stp/" data-tabs="timeline" data-height="80" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/mjapap.stp/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/mjapap.stp/">Ministério da Justiça, Administração Pública e Direitos Humanos</a></blockquote></div>
                 </div>
             </div>
@@ -52,7 +52,7 @@
 				<p><b>email:</b> mjdh.stp@gmail.com</p>
 				<p><b>Contacto:</b> 2222256</p>
 				<article>
-					<img src="resources/images/Team.png">
+					<img src="resources/images/Team.png" style="width: 30%;">
 				</article>
 				<p><b>Iyolanda Graça</b></p>
 				<p>Assessora de Comunicação e Imagem do Ministério da Justiça, Administração Pública e Direitos Humanos</p>

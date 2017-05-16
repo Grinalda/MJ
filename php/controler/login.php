@@ -28,7 +28,6 @@ include '../modelo/Session.php';
             $user->setNome($resultado["nome"]);
             $user->setNomeAcesso($resultado["email"]);
             Session::newSession(Session::USER, $user);
-
             die(json_encode(array("result" => true)));
         }
         else

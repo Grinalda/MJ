@@ -23,7 +23,8 @@
 		<div class="areaTitle">
 			<h1 class="title">Quem somos</h1>
 			<span class="separator"></span>
-			<p>O Centro de Informática e Reprografia – CIR, surge de um projecto de Informatização da Emissão do Bilhete de Identidade, do certificado do Registo Criminal e do Controlo Processual na Conservatória do Registo Civil, sendo órgão de concepção técnico e de prestação de serviço, dotado de regime financeiro especial, que tem por fins promover o estudo e o tratamento automático da informação correspondente às atribuições do Ministério da Justiça.
+			<p>
+                O CIR órgão de concepção técnico e de prestação de serviço, dotado de regime financeiro especial, que tem por fins promover o estudo e o tratamento automático da informação, voltada para o futuro e apostada em vencer os desafios que a sua missão lhe coloca, num mundo em permanente mutação.
 			</p>
 		</div>
 		<div class="container">

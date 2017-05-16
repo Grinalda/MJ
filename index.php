@@ -14,7 +14,7 @@
 <!-- /Menu Area -->
 
 <div class="row">
-	<div class="areaSlaid col-md-12">
+	<div class="areaSlaid container">
 		<!-- Indicators -->
 		<ol class="pager"></ol>
 		  <!-- Wrapper for slides -->

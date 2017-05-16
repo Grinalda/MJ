@@ -26,7 +26,7 @@
 
 <div class="row areaTabs">
 	<div class="container" id="MoreMaster">
-		<h3 id="title-service">Diário da República</h3>
+		<h3 id="title-service">Sem Informações para Mostrar</h3>
 		<!--<button class="btn btn-info"><i class="glyphicon glyphicon-shopping-cart"></i><a href="http://www.notapositiva.com/old/monograf/enginf/licencbach/indexenginfl01.htm" style="color: #fff"> Realizar Serviço online</a></button> -->
 		<div class="areaCollapse">
 			<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
@@ -41,10 +41,7 @@
 			    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 			      <div class="panel-body" id="what-service" >
 					<ul>
-			        	<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium officia maxime.</li>
-			        	<li>Vel tempore consequuntur, libero similique ducimus alias culpa quis omnis explicabo placeat laborum.</li>
-						<li>Deserunt hic laudantium doloremque nam ratione, et quo fuga Voluptas laudantium eaque assumenda eius architecto aliquam at eveniet odio.</li>
-						<li>Fugiat, rem, quam? Quia dolorum minus iste natus numquam doloribus delectus, pariatur. U</li>        	
+                        Sem Informações para Mostrar
 			        </ul>
 		      	</div>
 			   </div>

@@ -10,7 +10,7 @@
 <?php include '../includes/menuIn.html';?>
 <!-- /Menu Area -->
 
-<div class="row areaUnite dgrn">
+<div class="row areaUnite other">
 	<div class="col-md-12">
 		<img src="../resources/images/DGRN.png" alt="" >
 		<h1>Direção Geral dos Registros e Notariado</h1>

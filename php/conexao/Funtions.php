@@ -58,7 +58,7 @@ class Funtions
         return $this;
     }
 
-    function addDate($value, $format = '%m/%d/%Y')
+    function addDate($value, $format = '%Y/%m/%d')
     {
         $q = count($this->call->listParam);
         $this->call->listParam[$q] = $value;

@@ -79,10 +79,45 @@
         {
             $video[count($video)] = $row;
         }
-
         die(json_encode(array("videos" => $video)));
-
     };
 
+    $intent["DesativarVideo"]= function (){
+        $call = new CallMysql();
+        $call->functions("Func_DesativeMultimedia")
+            ->addInt($_POST["id"]);
+        $call ->execute();
+
+        $Resultado = $call->getValors();
+
+        die(json_encode(array("result" => $Resultado)));
+    };
+
+    $intent["DesativarNew"]= function (){
+        $call = new CallMysql();
+        $call->functions("Func_DesativeNotice")
+            ->addInt($_POST["id"]);
+        $call ->execute();
+
+        $Resultado = $call->getValors();
+
+        die(json_encode(array("result" => $Resultado)));
+    };
+
+    $intent["EditarNoticia"] = function (){
+        $call = new CallMysql();
+        $call->functions("Func_uppdateNotice")
+            ->addInt($_POST["noticia"]["id"])
+            ->addString($_POST["noticia"]["titulo"])
+            ->addDate($_POST["noticia"]["dataStart"])
+            ->addString($_POST["noticia"]["resumo"])
+            ->addObj($_POST["noticia"]["img"], "../../resources/images/loadImage/")
+            ->addString($_POST["noticia"]["conteudo"])
+            ->addInt(Session::getUserLogado()->getId());
+        $call->execute();
+        $Resultado = $call->getValors();
+
+        die(json_encode(array("notice" => $Resultado)));
+    };
 
    $intent[$_POST["intent"]]();

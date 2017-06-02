@@ -52,27 +52,34 @@
 		</div>
 		<div class="col-md-4 ">
 		<br>
-			<label class="title">Multimédia</label>
+			<h4 class="pull-right" style="margin: 3rem; font-size: 2rem">Multimédia</h4>
 			<br><br>
 
 			 <div class="fb-page" data-href="https://www.facebook.com/mjapap.stp/" data-tabs="timeline" data-height="220" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/mjapap.stp/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/mjapap.stp/">Ministério da Justiça, Administração Pública e Direitos Humanos</a></blockquote></div>
 			<br><br>
 
-			<div class="col-md-2 areaMultimedia">
-				<div class="col-md-12 col-xs-4 section">
-			        <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmjapap.stp%2Fvideos%2F1082161345221173%2F&show_text=0&width=400" height="150" width="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
-				</div>
-				<div class="col-md-12 col-xs-4 section">
-					<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmjapap.stp%2Fvideos%2F1095894647181176%2F&show_text=0&width=400" height="150" width="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
-				</div>
-				<div class="col-md-12 col-xs-4 section">
-					<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmjapap.stp%2Fvideos%2F1095894647181176%2F&show_text=0&width=400" height="150" width="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
-				</div>
-			</div>			
+            <div class="col-md-10 areaMultimedia" style="max-height: 46rem; overflow-y: auto;">
+
+            </div>
 		</div>
 
 	</div>
 
+</div>
+
+
+<div class="modal fade bs-example-modal-lg"  id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" keyboard="false">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+
+            <div class="modal-body">
+                <div class="col-md-12 content-Modal">
+
+                </div>
+            </div>
+            <div class="modal-footer" style="border: none;"></div>
+        </div>
+    </div>
 </div>
 
 <?php include 'includes/footerIn.html';?>
@@ -81,6 +88,7 @@
 
 <script type="text/javascript" src="resources/script/jQuery.js"></script>
 <script type="text/javascript" src="resources/script/index.js"></script>
+<script type="text/javascript" src="resources/script/news.js"></script>
 <script type="text/javascript" src="resources/bootstrap/js/bootstrap.js"></script>
 
 </html>

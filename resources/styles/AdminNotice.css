@@ -10,6 +10,7 @@ html, body, span, p, form, img, a, ul, ol, li, table, tr, td, div {
 }
 .areaTable {
   margin-top: 2rem;
+
 }
 #tableNotice{
   height: 10vh !important;
@@ -98,4 +99,17 @@ html, body, span, p, form, img, a, ul, ol, li, table, tr, td, div {
 
 .modal-body {
   border-top: 1px solid #f4f4f4;
+}
+.box-body{
+  max-height: 50rem !important;
+  overflow: scroll !important;
+}
+.wrapper-transform{
+  min-height: 630px !important;
+}
+.has-img{
+  background: #f4f4f4;
+}
+.box-video{
+  border: 1px solid #bbbbbb !important;
 }

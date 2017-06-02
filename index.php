@@ -18,13 +18,12 @@
 		<!-- Indicators -->
 		<ol class="pager"></ol>
 		  <!-- Wrapper for slides -->
-		 <div class="col-md-10 col-xl-12 slider">
+		 <div class="col-md-9 col-xl-12 slider">
 
 		 </div>
-	
-		<div class="col-md-2 areaMultimedia">
+		 <div class="col-md-3 areaMultimedia" style="max-height: 46rem; overflow-y: auto;">
 
-		</div>
+         </div>
 	</div>
 </div>
 <!-- /Area Slaid -->
@@ -82,7 +81,8 @@
 		<div class="areaTitle">
 			<h1 class="title">Links e Acessos</h1>
 			<span class="separator"></span>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic qui accusantium magnam. Iure eos numquam, fugit nostrum distinctio? Inventore nostrum deleniti laudantium earum eveniet perferendis aliquid, esse cum numquam perspiciatis.Iure eos numquam, fugit nostrum distinctio.</p>
+			<p>
+                Alcanse conteúdos, links e Páginas úteis que contribuiram para engradecer a sua experiência de navegação no site.</p>
 		</div>
 		<div class=" areaSections">
 			<div class="col-md-3 col-xs-6">
@@ -116,8 +116,8 @@
 				<section>
 					<a href="https://publicmanager-guenet.cloud-stp.net/publicmanager-guenet/pages/index.php5">
 						<img src="resources/images/img4.jpg" alt="">
-						<h3>Crie sua Empresa em poucos passos</h3>
-						<p>Atravez do Guiché Único podes criar a sua empresa em poucos passos</p>
+						<h3>Guiché Único</h3>
+						<p>Crie sua Empresa em poucos passos</p>
 					</a>	
 				</section>
 			</div>
@@ -125,6 +125,21 @@
 	</div>
 </div>
 <!-- /Area Links -->
+
+<div class="modal fade bs-example-modal-lg"  id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" keyboard="false">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+
+            <div class="modal-body">
+                <div class="col-md-12 content-Modal">
+
+                </div>
+            </div>
+            <div class="modal-footer" style="border: none;"></div>
+        </div>
+    </div>
+</div>
+
 
 <?php include 'includes/footerIn.html';?>
 <!-- /Footer -->

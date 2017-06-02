@@ -180,7 +180,7 @@ class Imagem {
     {
         if($photo != null)
         {
-            $id = md5($id);
+            $id = md5($id.time());
             file_put_contents("../../resources/images/loadImage/".$id, base64_decode($photo));
             $photo = $url.$id;
         }

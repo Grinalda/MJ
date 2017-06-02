@@ -40,13 +40,11 @@
 
 		<div class="col-md-8" id="newsDestaque">
 			<h1 class="title">Multimédia</h1> <br>
-            <div class="col-md-12 areaMultimedia imprensa" style="display: flex; flex-direction: row !important;">
-                <div class="col-md-12 col-xs-12">
-                    <div class="fb-page" data-href="https://www.facebook.com/mjapap.stp/" data-tabs="timeline" data-height="80" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/mjapap.stp/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/mjapap.stp/">Ministério da Justiça, Administração Pública e Direitos Humanos</a></blockquote></div>
-                </div>
+            <div class="col-md-12 areaMultimedia imprensa" style="display: flex; flex-direction: row !important; max-height: 25rem; overflow: auto">
+
             </div>
 		</div>
-		<div class="col-md-4  areaImprensa">
+		<div class="col-md-4  areaImprensa" style="padding-left: 5rem">
 			<h1 class="title">Assessoria de Comunicação e Imagem</h1>
 			<div>
 				<p><b>email:</b> mjdh.stp@gmail.com</p>
@@ -55,10 +53,9 @@
 					<img src="resources/images/Team.png" style="width: 30%;">
 				</article>
 				<p><b>Iyolanda Graça</b></p>
-				<p>Assessora de Comunicação e Imagem do Ministério da Justiça, Administração Pública e Direitos Humanos</p>
+				<p>Assessora de Comunicação e Imagem do MJAPDH</p>
 			</div>	
 		</div>
-		
 	</div>
 </div>
 <!-- /Area News -->
@@ -71,6 +68,21 @@
 	</div>
 </div>
 <!-- /Area More News -->
+
+
+<div class="modal fade bs-example-modal-lg"  id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" keyboard="false">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+
+            <div class="modal-body">
+                <div class="col-md-12 content-Modal">
+
+                </div>
+            </div>
+            <div class="modal-footer" style="border: none;"></div>
+        </div>
+    </div>
+</div>
 
 </body>
 

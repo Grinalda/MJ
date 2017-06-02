@@ -67,7 +67,6 @@ function showNotice() {
 	$("#noticeDetails article").html(news.content);
 }
 
-
 if (!String.prototype.$$) {
     /**
      * @param search
@@ -87,3 +86,7 @@ if (!String.prototype.$$) {
         }
     };
 }
+
+$('.btDown').on("click", function () {
+	$(".areaMultimedia #1,.areaMultimedia #2,.areaMultimedia #3").css("display", "none");
+});

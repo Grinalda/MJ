@@ -5,13 +5,11 @@
   background: url("../images/CIR.jpg") !important;
   background-attachment: fixed !important;
   background-size: contain !important;
-  background-repeat: no-repeat !important;
 }
 .daf {
   background: url("../images/DAF.jpg") !important;
   background-attachment: fixed !important;
   background-size: contain !important;
-  background-repeat: no-repeat !important;
 }
 .dgap {
   background: url("../images/DGAP.jpg") !important;
@@ -230,7 +228,7 @@
 }
 
 .areaFormContact {
-  height: 98vh;
+  height: auto;
   background: #fff;
   padding: 5rem 0;
 }
@@ -238,6 +236,7 @@
 .areaFormContact .form-group {
   display: flex;
   flex-direction: column;
+  height: auto;
 }
 
 .areaFormContact .form-group label {
@@ -259,6 +258,7 @@
 
 .areaFormContact .form-group .areaSign {
   padding: 1rem 0;
+  background: #fff;
 }
 
 .areaFormContact .form-group .areaSign .title2 {
@@ -269,11 +269,14 @@
 .areaFormContact .form-group .areaSign > div {
   margin: 0;
 }
-
+.areaFormContact .MapGrup{
+    background: #fff;
+}
 .areaFormContact .MapGrup .areaMap {
   border: 1px solid #eee;
   height: 71vh;
   margin-top: .5rem;
+
 }
 
 .areaFormContact .MapGrup .areaAtendiment {

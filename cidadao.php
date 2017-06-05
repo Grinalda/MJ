@@ -33,12 +33,12 @@
 	<div class="container">
 		<br>
 		<h3 class="center">Aceda a partir de um ponto central aos serviços e informação do Ministério da Justiça.</h3><br>
-		<div class="col-md-4 sections">
+		<div class="col-md-12 sections">
 			<section><i class="glyphicon glyphicon-map-marker"></i></section>
 			<h3>Centralidade</h3>
 			<p> O portal assume-se como o ponto de referência da Administração Pública na internet, permitindo o acesso a vários serviços eletrónicos e informações de interesse para o cidadão e as empresas</p>
 		</div>
-		<div class="col-md-4 sections">
+		<!-- <div class="col-md-4 sections">
 			<section><i class="glyphicon glyphicon-wrench"></i></section>
 			<h3>Acessibilidade</h3>
 			<p>O portal assume-se como o ponto de referência da Administração Pública na internet, permitindo o acesso a vários serviços eletrónicos e informações de interesse para o cidadão e as empresas</p>
@@ -47,7 +47,7 @@
 			<section><i class="glyphicon glyphicon-info-sign"></i></section>
 			<h3>Trasparência</h3>
 			<p>O portal assume-se como o ponto de referência da Administração Pública na internet, permitindo o acesso a vários serviços eletrónicos e informações de interesse para o cidadão e as empresas</p>
-		</div>
+		</div> -->
 
 	</div><br>
 </div>

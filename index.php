@@ -16,14 +16,15 @@
 <div class="row">
 	<div class="areaSlaid container">
 		<!-- Indicators -->
-		<ol class="pager"></ol>
+
 		  <!-- Wrapper for slides -->
 		 <div class="col-md-9 col-xl-12 slider">
 
 		 </div>
-		 <div class="col-md-3 areaMultimedia" style="max-height: 46rem; overflow-y: auto;">
+		 <div class="col-md-3 areaMultimedia" style="max-height: 69vh; overflow-y: auto;">
 
          </div>
+        <ol class="pager"></ol>
 	</div>
 </div>
 <!-- /Area Slaid -->

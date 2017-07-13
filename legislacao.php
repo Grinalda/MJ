@@ -18,7 +18,7 @@
 
 <div class="row top legislacao">
 	<div class="col-md-12 areaTop">
-		<h1>Legislação</h1>
+		<h1>-- Legislação --</h1>
 		<!-- <div class="input-group input-group-lg">
 	      <input type="text" class="form-control" placeholder="Escreva o que deseja procurar...">
 	      <span class="input-group-btn">

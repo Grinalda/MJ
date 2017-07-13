@@ -50,6 +50,10 @@ body {
   bottom: 0 !important;
   background: rgba(0, 0, 0, .5) !important;
 }
+.carousel-caption h3:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
 .icons {
   display: flex;
   margin: 0 2rem;
@@ -217,24 +221,15 @@ body {
 .areaNews {
   padding: 3rem;
   background: #eaeff2;
-  -ms-transform: rotate(-3deg); /* IE 9 */
-    -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
-    transform: rotate(-3deg);
+
   margin-bottom: 0px !important;
   z-index: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.areaNews h1{
-  -ms-transform: rotate(3deg) !important; /* IE 9 */
-    -webkit-transform: rotate(3deg) !important; /* Chrome, Safari, Opera */
-    transform: rotate(3deg) !important;
-}
+
 .areaNews .areaNotice {
-  -ms-transform: rotate(3deg); /* IE 9 */
-    -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
-    transform: rotate(3deg);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -477,11 +472,11 @@ body {
 }
 .pager{
   position: absolute;
-  bottom: 0;
   margin: 0 auto;
+  margin-top: -10rem;
   z-index: 999;
   display: flex;
-  width: 80%;
+  width: 70%;
   justify-content: center;
   float: left;
 }

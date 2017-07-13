@@ -6,7 +6,7 @@ $(function () {
     noticia.news();
     Videos.video();
 
-    $("#moreNotice, .areaNotice").on('click', ".OneNotice", function () {
+    $("#moreNotice, .areaNotice, .slider").on('click', ".OneNotice", function () {
 
         var dadosNoticia = new DadosNoticia();
 
@@ -93,29 +93,32 @@ var noticia = {
 
                      /*-------------Notice in Slider---------------*/
                         $('.slider').append(
-                            '<div  class="slider-item">' +
+                            '<div id="'+i+'" class="slider-item OneNotice">' +
                             '    <img class="img-responsive" src="' + notice["Noticia_foto"] + '" alt="' + notice["Noticia_titulo"] + '">' +
                             '    <div class="carousel-caption">' +
-                            '       <h3>' + notice["Noticia_titulo"] + '</h3>' +
+                            '       <h3 class="titleSlider">' + notice["Noticia_titulo"] + '</h3>' +
                             '       <p>' + notice["Noticia_resumo"] + '</p>' +
                             '     </div>' +
                             '</div>'
                         );
-                        /*----------------Efect Slider---------------*/
-                        if ($("*").hasClass("slider"))
-                            $('.slider').cycle({
-                                timeout: 3000,
-                                fx: 'cover, turnDown, shuffle, fade, growY',
-                                pager: $('.pager'),
-                                pagerAnchorBuilder: function (index, DOMelement) {
-                                    return '<a></a>';
-                                },
-                                activePagerClass: 'sliderAtivado'
-                            });
+
                     }
                     add++;
+
                 }
+                /*----------------Efect Slider---------------*/
+                if ($("*").hasClass("slider"))
+                    $('.slider').before('<ol class="pager"></ol>').cycle({
+                        timeout: 10000,
+                        fx: 'all',
+                        pager: $('.pager'),
+                        pagerAnchorBuilder: function (index, DOMelement) {
+                            return '<a></a>';
+                        },
+                        activePagerClass: 'sliderAtivado'
+                    });
             }
+
         });
     }
 };
@@ -155,6 +158,7 @@ var Videos = {
                 }
 
                 {
+                    // Listagem de video na pagina de administração
                     video = e.videos[i];
                     $('.videoArea').append(
                         '<li><span class="mailbox-attachment-icon has-img videoArea">'+video["conteudo"]+'</span></li>' +
@@ -166,6 +170,8 @@ var Videos = {
                         '       </span>' +
                         ' </div>'
                     );
+
+                    // Tamanho das tag de video iframe
                     $('.videoArea iframe').attr({
                         width: '200',
                         height: '150'
@@ -175,6 +181,8 @@ var Videos = {
         });
     }
 };
+
+// ---------Click no video, abrir modal carregar o video e reproduzir
 $('#myModal').on('hidden.bs.modal', function (e) {
     $(".content-Modal iframe").attr('src', $(".content-Modal iframe").attr('src') + '?autoplay=0');
 });

@@ -93,7 +93,7 @@
   align-items: center;
   justify-content: flex-end;
   padding-bottom: 2rem;
-  height: 60vh;
+  height: 40rem;
   overflow: hidden;
   box-shadow: -10px 5px 20px 0 rgba(13,18,232,.12);
   background: #fff;
@@ -121,7 +121,7 @@
   font-weight: normal;
   font-size: 13px;
   text-align: justify;
-  line-height: 22px;
+  line-height: 20px;
   color: #777;
   max-height: 10rem;
   overflow: hidden;
